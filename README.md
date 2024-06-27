@@ -71,11 +71,3 @@ To contribute:
 4. Push to the branch (`git push origin feature-branch`).
 5. Create a new Pull Request.
    
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
-
----
-
-Feel free to further customize this README to fit your specific project needs. Adding detailed column descriptions helps users understand the structure and purpose of the data better.
