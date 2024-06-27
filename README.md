@@ -3,6 +3,9 @@
 
 Welcome to the AN-data repository, where we collect and organize data from the French National Assembly (FNA). This project aims to create a comprehensive database of parliamentary interventions along with detailed information about the speakers.
 
+[Google Drive](https://drive.google.com/drive/folders/1AdHZsDcZonHHy60vERBwGUkjh2PYINH0?usp=sharing) containing most of the data gathered so far.
+
+
 ## Objectives
 
 - **Database Creation**: Compile a database containing the majority of interventions from the FNA.
