@@ -3,13 +3,24 @@
 
 Welcome to the AN-data repository, where we collect and organize data from the French National Assembly (FNA). This project aims to create a comprehensive database of parliamentary interventions along with detailed information about the speakers.
 
-[Google Drive](https://drive.google.com/drive/folders/1AdHZsDcZonHHy60vERBwGUkjh2PYINH0?usp=sharing) containing most of the data gathered so far.
+A [Google Drive](https://drive.google.com/drive/folders/1AdHZsDcZonHHy60vERBwGUkjh2PYINH0?usp=sharing) was setup, containing most of the data gathered so far.
 
 
 ## Objectives
 
 - **Database Creation**: Compile a database containing the majority of interventions from the FNA.
 - **Speaker Information**: Associate each intervention with the respective speaker and gather additional relevant information about them.
+
+## To-do list
+
+- [x] Build the database from 2007 to 2024 using the SQL dumps from [Nos Députés](nosdeputes.fr).
+- [ ] Use OCR to access all the Journal Officiels interventions per deputy from 1958
+   - [x] Open Google [Collaboratory Notebook](https://colab.research.google.com/drive/1t1ia3nibrQXhjkCTbnd2KkCL-P1i-kG5?usp=sharing) to work on
+   - [x] Use Tesseract to read the documents
+   - [ ] Identify a starting point from which the OCR can begin from
+   - [ ] Identify an end point from which to stop it
+   - [ ] Try on a single document
+   - [ ] See if we can build the database from there and what troubleshooting is needed
 
 ## Table of Contents
 
@@ -73,4 +84,4 @@ To contribute:
 3. Commit your changes (`git commit -am 'Add new feature'`).
 4. Push to the branch (`git push origin feature-branch`).
 5. Create a new Pull Request.
-   
+
