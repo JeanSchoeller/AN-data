@@ -72,6 +72,10 @@ The data and code in this repository are sourced from the following:
 - [French National Assembly Website](http://www2.assemblee-nationale.fr/](https://data.assemblee-nationale.fr/))
 - [NosDéputés.fr API](https://www.nosdeputes.fr/api)
 
+SQL prompts:
+
+SELECT parlementaire_id, fonction, date, type, intervention FROM intervention WHERE parlementaire_id IS NOT NULL INTO OUTFILE '/var/export.csv' FIELDS TERMINATED BY '~' LINES TERMINATED BY '\n';
+SELECT id, id_an FROM parlementaire INTO OUTFILE '/var/export_2017_2022_parl.csv' FIELDS TERMINATED BY '~' LINES TERMINATED BY '\n';
 
 ## Contributing
 
