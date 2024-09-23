@@ -74,8 +74,8 @@ The data and code in this repository are sourced from the following:
 
 SQL prompts:
 
-SELECT parlementaire_id, fonction, date, type, intervention FROM intervention WHERE parlementaire_id IS NOT NULL INTO OUTFILE '/var/export.csv' FIELDS TERMINATED BY '~' LINES TERMINATED BY '\n';
-SELECT id, id_an FROM parlementaire INTO OUTFILE '/var/export_2017_2022_parl.csv' FIELDS TERMINATED BY '~' LINES TERMINATED BY '\n';
+`SELECT parlementaire_id, fonction, date, type, intervention FROM intervention WHERE parlementaire_id IS NOT NULL INTO OUTFILE '/var/export.csv' FIELDS TERMINATED BY '~' LINES TERMINATED BY '\n';
+SELECT id, id_an FROM parlementaire INTO OUTFILE '/var/export_2017_2022_parl.csv' FIELDS TERMINATED BY '~' LINES TERMINATED BY '\n';`
 
 ## Contributing
 
